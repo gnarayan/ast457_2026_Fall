@@ -1,0 +1,24 @@
+Some packages we use (e.g. `corner`) live on the `conda-forge` channel, not
+on the `defaults` channel. If `conda install` can't find a package, or you
+were told to install something with a `conda-forge::` prefix, the fix that
+sticks for the rest of the course is to add conda-forge to your channel list
+once, instead of typing `-c conda-forge` every time.
+
+Create (or edit) the file `.condarc` in your home directory:
+- macOS/Linux/WSL: ~/.condarc
+- Windows (native, not WSL): C:\Users\<you>\.condarc
+
+with these contents:
+
+channels:
+  - conda-forge
+  - defaults
+channel_priority: flexible
+
+After saving that file, `conda install <package>` will check conda-forge
+automatically if a package isn't on defaults -- you shouldn't need the
+`conda-forge::` prefix again.
+
+If you'd rather not touch `.condarc`, the one-off equivalent for a single
+package is:
+> conda install -c conda-forge <package>
