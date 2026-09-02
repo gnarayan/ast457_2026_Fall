@@ -1,12 +1,12 @@
-# Prerequisite self-check — ASTR 457, week 1
+# Prerequisite self-check: ASTR 457, week 1
 
 Ten short items covering the math and Python this course assumes. **Self-scored,
 never collected, zero stakes.** Do it before Thursday's class. If an item feels
-shaky, use the refresher next to it — that's the whole point. If more than
+shaky, use the refresher next to it. That's the whole point. If more than
 three or four feel shaky, come talk to me in week 1 (not week 5): we will make
 a plan, and it will be fine.
 
-Answers are hidden under each item — click to expand.
+Answers are hidden under each item. Click to expand.
 
 ---
 
@@ -24,8 +24,8 @@ review; `help/astro_conventions.md`.)*
 
 <details><summary>Answer</summary>
 
-F = F₀ · 10^(−m/2.5). If exponent/log manipulation felt slow, practice it —
-it appears weekly.
+F = F₀ · 10^(−m/2.5). If exponent/log manipulation felt slow, practice it.
+It appears weekly.
 </details>
 
 **3.** For independent events A and B, what is P(A and B)? And in general,
@@ -35,7 +35,7 @@ intro-probability source.)*
 <details><summary>Answer</summary>
 
 P(A∩B) = P(A)P(B) for independent events; P(A|B) = P(A) exactly when A and B
-are independent. If "P(A|B) vs P(B|A)" feels blurry, flag it — confusing the
+are independent. If "P(A|B) vs P(B|A)" feels blurry, flag it. Confusing the
 two is one of the most common statistical errors in the published literature,
 and we will weaponize it on a quiz.
 </details>
@@ -46,7 +46,7 @@ Skilling Ch. 1.)*
 
 <details><summary>Answer</summary>
 
-σ²/N — so the error on the mean is σ/√N. This single fact underlies half of
+σ²/N, so the error on the mean is σ/√N. This single fact underlies half of
 observational astronomy.
 </details>
 
@@ -56,7 +56,7 @@ primer; Sivia & Skilling.)*
 
 <details><summary>Answer</summary>
 
-σ_s = √(σ_x² + σ_y²) — add in quadrature. For products, fractional
+σ_s = √(σ_x² + σ_y²). Add in quadrature. For products, fractional
 uncertainties add in quadrature: (σ_p/p)² = (σ_x/x)² + (σ_y/y)².
 </details>
 
@@ -66,7 +66,7 @@ Why? *(Refresher: dimensional analysis, any physics text.)*
 
 <details><summary>Answer</summary>
 
-Only the ratio — arguments of exp/log/sin must be dimensionless. Checking
+Only the ratio. Arguments of exp/log/sin must be dimensionless. Checking
 this is a thirty-second way to catch broken formulas (yours or an AI's).
 </details>
 
@@ -86,7 +86,7 @@ What is the result's shape? *(Refresher: numpy broadcasting docs;
 
 <details><summary>Answer</summary>
 
-(10, 5) — broadcasting stretches the size-1 axis against the length-5 axis.
+(10, 5). Broadcasting stretches the size-1 axis against the length-5 axis.
 If this surprised you, skim the broadcasting rules once; it will save you
 hours of shape-error debugging.
 </details>
@@ -107,7 +107,7 @@ carry? *(Refresher: Thursday's class; `help/python_for_data_science.pdf`.)*
 
 <details><summary>Answer</summary>
 
-`plt.errorbar` — measured data without visible uncertainties is hiding
+`plt.errorbar`. Measured data without visible uncertainties is hiding
 information (day one's demo turned on exactly this). Every axis carries a
 label *with units*. This is graded style in every lab.
 </details>
