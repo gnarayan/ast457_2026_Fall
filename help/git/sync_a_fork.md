@@ -60,3 +60,11 @@ git push origin master
 
 If this gets dull, make a shell script in your repo to do these commands automatically each time you run the script.
 The format will depend on your OS, but it's more or less copy the commands from fetch to finally above and stick it in a file, and execute it.
+
+### When do I open a pull request?
+
+You can `git add` / `git commit` / `git push` to YOUR fork as many times as
+you want while you're working -- that's just saving your progress, nobody
+sees it but you. Only open a pull request (the "Compare & pull request"
+button on your fork's GitHub page) once you're actually done with an
+assignment and ready to turn it in. Opening the PR is the submission.

@@ -11,3 +11,9 @@ __pycache__/
 
 # instructor-facing context, not for the public repo
 CLAUDE.md
+
+# editor/scratch backups - never commit these
+*.bak
+*.bak-*
+*.orig
+*~

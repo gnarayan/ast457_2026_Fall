@@ -1,3 +1,7 @@
+Windows users: do this from a WSL (Linux) terminal, not PowerShell/cmd --
+see help/os/windows/INSTALL_WSL.txt for one-time WSL setup, then come back
+here and follow the steps below inside your WSL terminal.
+
 If you have an existing `conda` or `conda` installation, skip to Step 3.
 
 1. Begin by installing Miniforge for your operating system from here: https://github.com/conda-forge/miniforge?tab=readme-ov-file (SCROLL DOWN TO THE INSTALL SECTION ON GITHUB)
@@ -9,9 +13,15 @@ If you have an existing `conda` or `conda` installation, skip to Step 3.
 3. Run the following commands in sequence
 > conda create -n astr457
 > conda activate astr457
-> conda install python=3 numpy scipy astropy jupyter matplotlib scikit-learn pandas emcee corner ipympl nb_conda_kernels
+> conda install python=3 numpy scipy astropy jupyter matplotlib scikit-learn pandas emcee ipympl nb_conda_kernels
+> conda install -c conda-forge corner
 
 This will prompt you to install several other packages. Hit yes.
+
+`corner` lives on the conda-forge channel, not the default one, which is
+why it needs the `-c conda-forge` flag above. If you'd rather not type that
+flag every time for future packages, see help/condarc-example.txt for a
+one-time `.condarc` fix.
 
 4. To work on the course notebooks, run:
 > jupyter lab

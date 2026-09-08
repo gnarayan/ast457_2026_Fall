@@ -1,0 +1,46 @@
+Windows users: the course is taught assuming a Unix-like terminal (macOS/
+Linux). The easiest way to get one on Windows is WSL (Windows Subsystem for
+Linux) -- a real Linux environment running alongside Windows. Do this once,
+then follow the SAME `INSTALL.txt` steps as everyone else, inside WSL.
+
+1. Install WSL2 (one-time, needs admin rights):
+   Open PowerShell as Administrator and run:
+   > wsl --install
+   This installs WSL2 with Ubuntu by default. Restart your computer when
+   prompted, then finish creating your Ubuntu username/password.
+
+   If `wsl --install` fails or WSL is already partially set up, see
+   Microsoft's guide: https://learn.microsoft.com/windows/wsl/install
+
+2. Open your Linux terminal:
+   Search for "Ubuntu" in the Start menu and open it. This is now your
+   terminal for this course -- use it instead of PowerShell/cmd for
+   everything below and for the rest of the semester.
+
+3. Follow `INSTALL.txt` from Step 1, inside this Ubuntu terminal (choose the
+   Linux Miniforge installer, not the Windows one).
+
+4. Running Jupyter from WSL:
+   > jupyter lab
+   This starts the server inside WSL and should open automatically in your
+   Windows browser (WSL2 forwards the localhost port for you). If it
+   doesn't open automatically, copy the http://localhost:8888/... URL that
+   Jupyter prints into your Windows browser by hand.
+
+5. Files and paths -- two gotchas:
+   - Keep your course repo INSIDE the Linux filesystem (e.g. under your WSL
+     home directory, ~/work/...), not on the Windows C: drive
+     (/mnt/c/Users/...). Reading/writing across the WSL/Windows boundary is
+     much slower and occasionally flaky with Jupyter/git.
+   - `git` and `conda` should both be the WSL/Linux versions (installed
+     inside Ubuntu), not the Windows ones. Running `which git` and
+     `which conda` inside your Ubuntu terminal should show paths starting
+     with `/usr/` or `/home/`, not `/mnt/c/`.
+
+6. Recommended editor: VS Code with the "WSL" extension lets you open your
+   WSL home directory as if it were local -- run `code .` from inside your
+   repo directory in the Ubuntu terminal. This is optional; JupyterLab in
+   the browser is sufficient for the course.
+
+If you get stuck, come to office hours or ask in class -- WSL setup issues
+are common and quick to fix in person.
