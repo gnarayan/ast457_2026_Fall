@@ -17,3 +17,6 @@ CLAUDE.md
 *.bak-*
 *.orig
 *~
+
+# local lecture media (video clips for offline playback; students get the link on the slide)
+lecture/**/media/

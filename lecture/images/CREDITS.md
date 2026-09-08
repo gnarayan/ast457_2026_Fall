@@ -241,3 +241,129 @@ the verified URL is the tarball and the filename inside it is named below.
 - **Credit:** BICEP2/Keck Array and Planck Collaborations, Phys. Rev. Lett. 114, 101301 (2015), Fig. 12
 - **Licence:** arXiv non-exclusive licence; the PRL version is APS copyright. **Basis for use: fair use for teaching, with citation.**
 - **Shows:** black BB bandpowers above the lensed-LCDM curve, blue points after subtracting the dust contribution measured against Planck 353 GHz falling onto it, and the likelihood for r consistent with zero. Visually verified.
+
+# Added for Lecture 03 (Day 5), downloaded 2026-09-03
+
+## gaia_spacecraft.jpg
+- **Title:** Gaia observes the Milky Way (artist's impression of the Gaia spacecraft against the Gaia EDR3 all-sky map)
+- **Source page:** https://www.esa.int/ESA_Multimedia/Images/2022/06/Gaia_observes_the_Milky_Way
+- **File downloaded:** https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2022/06/gaia_observes_the_milky_way/24305944-1-eng-GB/Gaia_observes_the_Milky_Way_pillars.jpg
+- **Credit:** Spacecraft: ESA/ATG medialab; Milky Way: ESA/Gaia/DPAC; Acknowledgement: A. Moitinho
+- **License:** CC BY-SA 3.0 IGO
+
+## gaia_dr3_parallax_error_vs_g.png
+- **Title:** Uncertainty in parallax versus magnitude, Fig. 7 of Lindegren et al. 2021, A&A 649, A2 (Gaia EDR3 astrometric solution)
+- **Source page:** https://arxiv.org/abs/2012.03380
+- **File downloaded:** https://arxiv.org/e-print/2012.03380 (fig07.pdf, rendered at 200 dpi)
+- **Credit:** Lindegren et al. 2021, A&A 649, A2, Fig. 7; ESA/Gaia/DPAC
+- **License:** fair use — single cited figure from a scientific paper, non-commercial course
+
+## lindegren2021_quasar_parallax_zeropoint.png
+- **Title:** Mean parallax of quasars by magnitude, colour and ecliptic latitude, Fig. 5 of Lindegren et al. 2021, A&A 649, A4 (Gaia EDR3 parallax bias)
+- **Source page:** https://arxiv.org/abs/2012.01742
+- **File downloaded:** https://arxiv.org/e-print/2012.01742 (fig05.pdf, rendered at 200 dpi, cropped to the panels)
+- **Credit:** Lindegren et al. 2021, A&A 649, A4, Fig. 5; ESA/Gaia/DPAC
+- **License:** fair use — single cited figure from a scientific paper, non-commercial course
+- **Note:** paper body: quasar weighted mean parallax −21 μas, median −17 μas (not in the abstract); ESA EDR3 page quotes −17 μas
+
+## bailerjones_distance_from_parallax.png
+- **Title:** Bias and standard deviation of the 1/parallax distance estimator vs true fractional parallax error, Fig. 2 of Bailer-Jones 2015, PASP 127, 994
+- **Source page:** https://arxiv.org/abs/1507.02105
+- **File downloaded:** https://arxiv.org/e-print/1507.02105 (plots/scaledResiduals_mode_runifPrior_r2TruePrior_rmax1e3.ps and _zoom.ps, rendered at 200 dpi, placed side by side as published)
+- **Credit:** Bailer-Jones 2015, PASP 127, 994, Fig. 2
+- **License:** fair use — single cited figure from a scientific paper, non-commercial course
+- **Note:** right-panel red line is the rejected fraction on the same axes, as in the published caption
+
+## elbadry2023_gaiabh1_astrometric_orbit.png
+- **Title:** Predicted astrometric orbit of the Gaia BH1 photocentre, Fig. 3 of El-Badry et al. 2023, MNRAS 518, 1057
+- **Source page:** https://arxiv.org/abs/2209.06833
+- **File downloaded:** https://arxiv.org/e-print/2209.06833 (gaia_bh1_astrometry_figure.pdf, rendered at 200 dpi)
+- **Credit:** El-Badry et al. 2023, MNRAS 518, 1057, Fig. 3
+- **License:** fair use — single cited figure from a scientific paper, non-commercial course
+- **Note:** abstract: M_2 = 9.62 ± 0.18 M_sun, P_orb = 185.6 d, d = 480 pc, G = 13.8
+
+## star_psf_pixels.png
+- **Title:** Gaia calibration image of NGC 1818, 48x48-pixel crop of one star, enlarged 16x nearest-neighbour
+- **Source page:** https://www.esa.int/ESA_Multimedia/Images/2014/02/Gaia_calibration_image
+- **File downloaded:** https://esamultimedia.esa.int/img/2014/02/ngc1818_final_blue.tif (crop origin pixel 545, 857 of the 1800x1800 frame)
+- **Credit:** ESA/DPAC/Airbus DS
+- **License:** ESA Standard Licence (educational / non-commercial use with credit)
+
+## gaia_focal_plane.png
+- **Title:** Gaia focal plane schematic (106 CCDs)
+- **Source page:** https://www.cosmos.esa.int/web/gaia/focal-plane
+- **File downloaded:** https://www.cosmos.esa.int/documents/29201/29222/focal+plane.png/b43ff64c-8cb0-49af-8e06-5c53b63cb6dc?t=1380790735000
+- **Credit:** ESA; acknowledgement: Alex Short
+- **License:** ESA image; CC BY-SA 3.0 IGO [INFERRED — page carries a credit line only; ESA terms permit educational use with credit]
+- **Note:** downloaded, not yet used in a deck
+
+## likelihood_surface_bimodal.png
+- **Title:** The Joker, Fig. 5 (Experiment 2a, fixed jitter): corner plot of orbit posterior samples from five RV epochs
+- **Source page:** https://arxiv.org/abs/1610.07602
+- **File downloaded:** https://arxiv.org/e-print/1610.07602 (undunc-corner-a.pdf, rasterised at 200 dpi)
+- **Credit:** Price-Whelan, Hogg, Foreman-Mackey & Rix 2017, ApJ 837, 20, Fig. 5 (doi:10.3847/1538-4357/aa5e50)
+- **License:** © AAS; fair use — single cited figure, non-commercial teaching
+
+## hubble1929_fig1.png
+- **Title:** Hubble's law, original 1929 figure
+- **Source page:** https://commons.wikimedia.org/wiki/File:Hubble%27s_law_original_1929.png
+- **File downloaded:** https://upload.wikimedia.org/wikipedia/commons/8/83/Hubble%27s_law_original_1929.png
+- **Credit:** Hubble 1929, PNAS 15, 168, Fig. 1 (doi:10.1073/pnas.15.3.168)
+- **License:** public domain (1929)
+
+## planck_cmb_polarisation.jpg
+- **Title:** Polarisation of the Cosmic Microwave Background: full sky and details (first frame of the ESA animation, cropped)
+- **Source page:** https://www.esa.int/ESA_Multimedia/Images/2015/02/Polarisation_of_the_Cosmic_Microwave_Background_full_sky_and_details
+- **Credit:** ESA and the Planck Collaboration
+- **License:** ESA Standard Licence (educational use with credit); CC BY-SA 3.0 IGO per Wikimedia Commons copies [INFERRED — verify on the Commons page]
+
+## planck_cmb_map.jpg
+- **Title:** Planck CMB (2013 all-sky temperature map)
+- **Source page:** https://www.esa.int/ESA_Multimedia/Images/2013/03/Planck_CMB
+- **Credit:** ESA and the Planck Collaboration
+- **License:** ESA Standard Licence; CC BY-SA 3.0 IGO per Commons copies [INFERRED]
+- **Note:** downloaded, not yet used in a deck
+
+## planck_353ghz_dust.jpg
+- **Title:** Milky Way's magnetic fingerprint (Planck HFI 353 GHz polarised dust, 2014)
+- **Source page:** https://www.esa.int/ESA_Multimedia/Images/2014/05/Milky_Way_s_magnetic_fingerprint
+- **Credit:** ESA and the Planck Collaboration
+- **License:** ESA Standard Licence; CC BY-SA 3.0 IGO per Commons copies [INFERRED]
+
+## bicep2_south_pole.jpg
+- **Title:** Dark sector laboratory (South Pole Telescope left, BICEP2 in its ground shield right)
+- **Source page:** https://commons.wikimedia.org/wiki/File:Dark_sector_laboratory.jpg
+- **File downloaded:** https://upload.wikimedia.org/wikipedia/commons/0/07/Dark_sector_laboratory.jpg
+- **Credit:** Ketiltrout, Wikimedia Commons, 18 January 2011
+- **License:** CC BY-SA 3.0 / GFDL 1.2+
+
+## (link, not an image) Linde video
+- https://www.youtube.com/watch?v=ZlfIVEy_YOA — "Stanford Professor Andrei Linde celebrates physics breakthrough", Stanford channel, 2014-03-17
+## (references) BICEP2 dust-from-a-slide
+- Ade et al. 2014, PRL 112, 241101 (arXiv:1403.3985): v1 DDM2 model built from Planck ESLAB-2013 talk slides; published footnote: "unquantifiable uncertainty"
+- Flauger, Hill & Spergel 2014, JCAP 08, 039 (arXiv:1405.7351): "a digitization of the polarization fraction and polarization angle maps presented in [Bernard, ESLAB 2013]"
+- Quanta, Wolchover, 2014-09-21: https://www.quantamagazine.org/big-bang-signal-could-all-be-caused-by-dust-planck-team-says-20140921/
+- r = 0.20 +0.07/−0.05 (arXiv:1403.3985 abstract); r < 0.12 at 95% (arXiv:1502.00612 abstract)
+
+## lindegren2021_quasar_zp_vs_G.png
+- **Source:** panel (a) cropped from `lindegren2021_quasar_parallax_zeropoint.png` (same credit and basis as that entry: Lindegren et al. 2021, A&A 649, A4, Fig. 5; ESA/Gaia/DPAC). Cropped 2026-09-07 for legibility on a slide.
+
+## raghunathan2026_fig8_w0wa_bao_sn_cmb.png / raghunathan2026_fig5_fisher_vs_mcmc.png
+- **Source:** Raghunathan et al. 2026, ApJ 1003, 246 (arXiv:2603.09973), Figs. 8 and 5, cropped from the arXiv PDF (https://arxiv.org/pdf/2603.09973) at 220 dpi.
+- **Credit:** Raghunathan, Mitra, Šarčević, Ge, Ravoux, Georgiou, Hložek, Kessler, Narayan, Rogozenski, Shah, Valogiannis, Vieira & LSST DESC 2026, ApJ 1003, 246, doi:10.3847/1538-4357/ae64f1 (ADS 2026ApJ..1003..246R; UIUC/CAPS-led).
+- **License / basis:** single cited figures from a scientific paper in a non-commercial course, fair use; arXiv non-exclusive licence.
+
+## rogozenski2026_fig2_defom_vs_stepsize.png
+- **Source:** Rogozenski et al. 2026, "Fisher Forecasting for the DESC with Augur", arXiv:2608.03876, Fig. 2 (top-left panel, Y1 DEFOM vs normalised step size), cropped from the arXiv PDF at 220 dpi.
+- **Credit:** Rogozenski et al. 2026 / LSST DESC.
+- **License / basis:** single cited figure panel in a non-commercial course, fair use; arXiv non-exclusive licence.
+
+## sarcevic2026_fig1b_derivative_scatter.png / sarcevic2026_fig2c_fisher_bias.png
+- **Source:** Šarčević, van der Wild & Trendafilova 2026, "DerivKit: stable numerical derivatives bridging Fisher forecasts and MCMC", JOSS (arXiv:2602.08078), Fig. 1b and Fig. 2c, cropped from the arXiv PDF at 220 dpi.
+- **Credit:** Šarčević, van der Wild & Trendafilova 2026.
+- **License / basis:** JOSS papers are CC BY 4.0; single cited figure panels with attribution.
+
+## lecture/03/media/linde_bicep2_2014.mp4 (NOT in the repo - gitignored)
+- **Source:** Stanford University, "Stanford Professor Andrei Linde celebrates physics breakthrough", March 2014, https://www.youtube.com/watch?v=ZlfIVEy_YOA (downloaded 2026-09-07 for offline classroom playback only).
+- **Credit:** Stanford University / Chao-Lin Kuo, Andrei Linde, Renata Kallosh.
+- **License / basis:** Stanford copyright; classroom playback under fair use, not redistributed. The slide links to the YouTube original for students.
