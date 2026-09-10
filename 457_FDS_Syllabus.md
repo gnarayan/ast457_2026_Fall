@@ -334,8 +334,9 @@ substitute or held on Zoom; watch your email for the arrangements each week.
 - **Sep 22, 24** — Regression & Inference: ordinary least squares,
   generalized least squares, orthogonal distance regression vs generative
   modeling of data (ICVG Ch. 8, FB Ch. 7)
-- **Sep 29, Oct 1** *(travel)* — Bayes in practice, sampling and Markov Chain Monte
-  Carlo methods (ICVG Ch. 5)
+- **Sep 29, Oct 1** *(travel; GN via Zoom Sep 29; guest lecture Padma Venkatraman
+  Oct 1)* — Bayes in practice, sampling and Markov Chain Monte Carlo methods
+  (ICVG Ch. 5)
 - **Oct 6, 8** — Building models, effective sampling techniques, estimating
   parameters & uncertainties, posterior predictive checks, other MCMC
   wizardry (ICVG Ch. 8). **Midterm posted Oct 8.**
