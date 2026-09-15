@@ -1,0 +1,25 @@
+- O star is a pipeline to a stellar black hole (tau ~ 5 Myr) (N ~ 20,000 in Milky Way)
+
+- Goal of research: Where are Milky Way stellar-masss black holes
+
+- Detecting Methods: X-ray binaries, Gravitational Waves
+
+- How to form a black hole in a binary?:
+    - Common envelope evolution
+    - strong winds
+    - Binary started as a triple
+    - Open clusters
+
+- Low Metallicity -> High Mass Black hole
+    - Question 1): Could this single data point be explained just by age (i.e. Black Hole just had more time to feed than the high metallicity data points)?
+
+- Black hole companion should show similar metallicty if they interacted which is what he found.
+
+- V404 Cygni(?) wide tertiary shows some black hole's are born with weak natal kicks
+    - This might explain Black hole + low mass x-ray binaries
+
+- Black Hole Binary detection will be much higher in Gaia DR4
+
+- Roman will be good for better fitting binary orbits
+
+- Question 2): What observations do you look for that indicate strong vs weak natal kicks?
