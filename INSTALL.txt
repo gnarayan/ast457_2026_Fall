@@ -26,6 +26,11 @@ ipykernel 7 can break matplotlib labels that use $...$ math ("ParseException:
 Expected end of text") when sliders or interactive plots are on the page, and
 can make plots silently not appear. Restart Jupyter afterwards.
 
+Then add PyMC, for Hamiltonian Monte Carlo, and ArviZ, for chain diagnostics
+like R-hat and the effective sample size (added Oct 8; do this even if you
+installed earlier; you need both for the midterm):
+> conda install -c conda-forge pymc arviz
+
 `corner` lives on the conda-forge channel, not the default one, which is
 why it needs the `-c conda-forge` flag above. If you'd rather not type that
 flag every time for future packages, see help/condarc-example.txt for a
